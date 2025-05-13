@@ -2,7 +2,8 @@
 module.exports = {
   // options...
   devServer: {
-    proxy: "http://localhost"
+    proxy: "http://localhost",
+    https: false
   },
   publicPath: process.env.NODE_ENV === "production" ? "/" : "/"
 };

@@ -1,5 +1,5 @@
 var sessionService = require("../../services/session.service")
-var bcrypt = require("bcrypt");
+var bcrypt = require("bcryptjs");
 module.exports = {
   inputs: {
     query: {},
