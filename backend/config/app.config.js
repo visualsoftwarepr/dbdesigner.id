@@ -4,7 +4,7 @@
  *
  */
 module.exports = {
-  port: 3000,
+  port: 3010,
   url: process.env.APP_URL,
   secure: {
     status: false,
